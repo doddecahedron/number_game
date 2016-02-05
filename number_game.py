@@ -13,7 +13,6 @@ def game():
                 break
             elif guess < secret_num:
                 print("My number is higher than {}".format(guess))
-                break
             else:
                 print("My number is lower than {}".format(guess))
             guesses.append(guess)
